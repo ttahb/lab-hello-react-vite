@@ -12,8 +12,10 @@ function App() {
   return (
     <>
     <div className="App">
+      <nav className="navbar">
       <img src={ImageMenu} alt="menu-image"/>
       <img src={ImageIronhackLogo} alt="ironhack-logo-image"/>
+      </nav>
       <img src={ImageIcon1} alt="icon-1-image"/>
       <img src={ImageIcon2} alt="icon-2-image"/>
       <img src={ImageIcon3} alt="icon-3-image"/>

@@ -1,8 +1,18 @@
 #root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: black;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .logo {
